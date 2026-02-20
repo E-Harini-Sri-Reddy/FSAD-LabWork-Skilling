@@ -1,0 +1,20 @@
+SKILL-1→ Git Version Control
+
+Prerequisites:
+> Basic knowledge of Git commands
+> Ability to create and edit project files
+> Understanding of version control basics
+
+The development team wants to manage their project using Git to maintain a structured and collaborative workflow. In this lab, you will simulate a real-world version control process: creating project files, tracking and committing changes, using GitHub as remote storage, working with multiple branches, and handling merge conflicts. This helps you understand how developers work together efficiently in software projects.
+
+Tasks:
+1. Create a new project folder, initialize Git using git init, and configure Git with your username and email.
+2. Create two files (example: main.java, notes.txt) with sample content, check the repository status, and add them to staging.
+3. Commit the staged files with a meaningful commit message.
+4. Create a new repository on GitHub, connect your local repo using the remote URL and push the committed changes.
+5. Create the first branch (example: feature-update), make modifications, and add + commit the changes.
+6. Create a second branch (example: bug-fix), apply changes, and add + commit them.
+7. Switch back to the main branch and merge both branches one after the other.
+8. If any merge conflict occurs, resolve it manually, commit the fix, and complete the merge.
+
+Update : Fixed minor bugs in notes.
